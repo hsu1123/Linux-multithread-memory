@@ -84,7 +84,7 @@ void* worker(void *address_main) {
         "Heap address",
         "Share library address",
         "Data address",
-        "Main address"
+        "Code address"
         };
     
     for(int i = 0; i < 7; i++){
