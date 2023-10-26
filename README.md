@@ -8,15 +8,15 @@
   </tr>
   <tr>
     <td>TLS virtual address</td>
-    <td>"7f38512366fc"</td>
-    <td>"7f38512366fc"</td>
-    <td>"7f38512366fc"</td>
+    <td>7f38512366fc</td>
+    <td>7f3850a356fc</td>
+    <td>7f384bfff6fc</td>
   </tr>
   <tr>
     <td>TLS physical address</td>
-    <td>"800000007721b6fc"</td>
-    <td>"800000007721b6fc"</td>
-    <td>"800000007721b6fc"</td>
+    <td>800000007721b6fc</td>
+    <td>80000000238236fc</td>
+    <td>800000008100c6fc</td>
   </tr>
   <tr>
     <td>Stack virtual address</td>
@@ -79,13 +79,13 @@
     <td>"800000007dea1010"</td>
   </tr>
   <tr>
-    <td>Main virtual address</td>
+    <td>Code virtual address</td>
     <td>"5616d660a516"</td>
     <td>"5616d660a516"</td>
     <td>"5616d660a516"</td>
   </tr>
   <tr>
-    <td>Main physical address</td>
+    <td>Code physical address</td>
     <td>"8000000088ca9516"</td>
     <td>"8000000088ca9516"</td>
     <td>"8000000088ca9516"</td>
