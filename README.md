@@ -1,7 +1,9 @@
-# Linux-project
+# Multithread program about memory sharing
+* Write a system call (mycall_vir_to_physical_addresses/mycall_vir_to_physical_addresses.c) which function is convert virtual address to physical address, and then add to linux kernel.
 ![image](https://camo.githubusercontent.com/1529d3060ebbde2e363dc47ef8bb68735a37f965eb9b5953612f30aafc5128e5/68747470733a2f2f692e696d6775722e636f6d2f4766474c6762552e706e67)
-
+* Write a multithread program in user space (User_space_program.c) to check the usage of memory sharing between different threads, included TLS(threas local storage), Stack Segments, BSS Segments, Heap Segments, Shared library, Data Segments and Code Segments.
 ![image](https://img.cntofu.com/book/note/linux_system/images/thread-stack.png)
+* List the usage of memory about three threads, then we can find shared library, Data Segments and Code Segments are sharing.
 <table>
   <tr>
     <td></td>
