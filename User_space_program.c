@@ -48,6 +48,7 @@ __thread int var = 1;
 //Data Segments(initialized)//Global
 //int MyDataInData = 100;
 
+int *GlobalHeapPtr;
 unsigned long *MyPhysicalAddress[7];
 
 void* worker(void *address_main) {
@@ -57,11 +58,13 @@ void* worker(void *address_main) {
     //static variable e.g. static int i = 0;(stored in data segment(initialized)), static int i;(stored in BSS)
     int MyDataInStack = 1000;
     //BSS(uninitialized data segment)
-    int MyDataInBSS;
+    static int MyDataInBSS;
+    //int MyDataInBSS;
     //Heap(is the segment where dynamic memory allocation usually take place, managed by malloc, realloc, free, 
     //shared by all shared libraries and dynamically loaded modules in a process)
-    int *MyDataInHeap = malloc(sizeof(int));
-    *MyDataInHeap = 100;
+    int *MyDataInHeap = GlobalHeapPtr;
+    /*int *MyDataInHeap = malloc(sizeof(int));
+    *MyDataInHeap = 100;*/
     //libraries(shard library)
     void* shr_address = get_shr_mem_addr();
     //Data Segments(initialized)//local
@@ -92,9 +95,15 @@ void* worker(void *address_main) {
         printf("Virtual address : %lx ===>", MyVirtualAddress[i]);
         printf("Physical address %lx\n", get_phys_addr(MyVirtualAddress[i]));
     }
+
+    pthread_mutex_unlock(&mutex);
+    return NULL;
 }
 
 int main() {
+    GlobalHeapPtr = malloc(sizeof(int));
+    *GlobalHeapPtr = 100;
+    
     pthread_t pid1, pid2, pid3;
     pthread_create(&pid1, NULL, worker, main);
     sleep(1);
@@ -110,6 +119,7 @@ int main() {
     pthread_join(pid2, NULL);
     pthread_join(pid3, NULL);
 
+    free(GlobalHeapPtr);
 
     return 0;
 }
