@@ -38,26 +38,26 @@
   <tr>
     <td>BSS virtual address</td>
     <td>7f3851235d78</td>
-    <td>7f3850a34d78</td>
-    <td>7f384bffed78</td>
+    <td>7f3851235d78</td>
+    <td>7f3851235d78</td>
   </tr>
   <tr>
     <td>BSS physical address</td>
     <td>80000000abfdfd78</td>
-    <td>800000004e3d2d78</td>
-    <td>80000000a2ef3d78</td>
+    <td>80000000abfdfd78</td>
+    <td>80000000abfdfd78</td>
   </tr>
   <tr>
     <td>Heap virtual address</td>
     <td>7f384c000b60</td>
-    <td>7f384c000c30</td>
-    <td>7f384c000c50</td>
+    <td>7f384c000b60</td>
+    <td>7f384c000b60</td>
   </tr>
   <tr>
     <td>Heap physical address</td>
     <td>800000007a7e6b60</td>
-    <td>800000007a7e6c30</td>
-    <td>800000007a7e6c50</td>
+    <td>800000007a7e6b60</td>
+    <td>800000007a7e6b60</td>
   </tr>
   <tr>
     <td>Library virtual address</td>
