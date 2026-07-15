@@ -19,9 +19,9 @@
   </tr>
   <tr>
     <td>TLS physical address</td>
-    <td>800000007721b6fc</td>
-    <td>80000000238236fc</td>
-    <td>800000008100c6fc</td>
+    <td>7721b6fc</td>
+    <td>238236fc</td>
+    <td>8100c6fc</td>
   </tr>
   <tr>
     <td>Stack virtual address</td>
@@ -31,9 +31,9 @@
   </tr>
   <tr>
     <td>Stack physical address</td>
-    <td>80000000abfdfd74</td>
-    <td>800000004e3d2d74</td>
-    <td>80000000a2ef3d74</td>
+    <td>abfdfd74</td>
+    <td>4e3d2d74</td>
+    <td>a2ef3d74</td>
   </tr>
   <tr>
     <td>BSS virtual address</td>
@@ -43,9 +43,9 @@
   </tr>
   <tr>
     <td>BSS physical address</td>
-    <td>80000000abfdfd78</td>
-    <td>80000000abfdfd78</td>
-    <td>80000000abfdfd78</td>
+    <td>abfdfd78</td>
+    <td>abfdfd78</td>
+    <td>abfdfd78</td>
   </tr>
   <tr>
     <td>Heap virtual address</td>
@@ -55,9 +55,9 @@
   </tr>
   <tr>
     <td>Heap physical address</td>
-    <td>800000007a7e6b60</td>
-    <td>800000007a7e6b60</td>
-    <td>800000007a7e6b60</td>
+    <td>7a7e6b60</td>
+    <td>7a7e6b60</td>
+    <td>7a7e6b60</td>
   </tr>
   <tr>
     <td>Library virtual address</td>
@@ -67,9 +67,9 @@
   </tr>
   <tr>
     <td>Library physical address</td>
-    <td>"8000000117f83c90"</td>
-    <td>"8000000117f83c90"</td>
-    <td>"8000000117f83c90"</td>
+    <td>"117f83c90"</td>
+    <td>"117f83c90"</td>
+    <td>"117f83c90"</td>
   </tr>
   <tr>
     <td>Data virtual address</td>
@@ -79,9 +79,9 @@
   </tr>
   <tr>
     <td>Data physical address</td>
-    <td>"800000007dea1010"</td>
-    <td>"800000007dea1010"</td>
-    <td>"800000007dea1010"</td>
+    <td>"7dea1010"</td>
+    <td>"7dea1010"</td>
+    <td>"7dea1010"</td>
   </tr>
   <tr>
     <td>Code virtual address</td>
@@ -91,8 +91,8 @@
   </tr>
   <tr>
     <td>Code physical address</td>
-    <td>"8000000088ca9516"</td>
-    <td>"8000000088ca9516"</td>
-    <td>"8000000088ca9516"</td>
+    <td>"88ca9516"</td>
+    <td>"88ca9516"</td>
+    <td>"88ca9516"</td>
   </tr>
 </table>
